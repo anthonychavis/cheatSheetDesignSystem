@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Goblin+One&family=Mali:ital,wght@0,400;0,500;1,600&family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&family=Goblin+One&family=Inconsolata:wght@400;500&family=Mali:ital,wght@0,400;0,500;1,600&family=PT+Sans&family=Share+Tech+Mono&display=swap");
 
 *,
 *::after,
@@ -176,8 +176,20 @@ footer p {
     grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
     row-gap: var(--container_row-gap);
 }
-.fonts-container div {
-    display: inline-block;
+.alegreya p {
+    font-family: "Alegreya", serif;
+}
+.alegreya p:last-child {
+    font-weight: 700;
+}
+.inconsolata p {
+    font-family: "Inconsolata", monospace;
+}
+.inconsolata p:last-child {
+    font-weight: var(--medium);
+}
+.pt-sans p {
+    font-family: "PT Sans", sans-serif;
 }
 
 /* TEXT STYLES SECTION */
